@@ -55,10 +55,6 @@ def test_password(pw, tests=[long_enough, short_enough, has_lowercase, has_upper
 # Count_variable
 count = 0
 
-
-# READ PASSWORDS FROM LIST AND PASS IT TO FUNCTION VIA LOOP
-# COMPUTE TIME FROM START TO END
-
 # DIRECTORY_TRAVERSAL_PART
 username = input('\n\nEnter the username:\n\n')
 password = input('\n\nEnter the password:\n\n')
@@ -196,8 +192,5 @@ elif sum == 2:
     print("AUTHENTICATION SUCCESS\n")
     print("RUNTIME IS:", timer_timer)
     print("\n")
-    #import webbrowser
-    # time.sleep(4)
-    # webbrowser.open("http://127.0.0.1/e-commerce/")
 
 os.system("pause")
